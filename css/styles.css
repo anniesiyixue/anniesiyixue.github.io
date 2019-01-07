@@ -379,11 +379,10 @@ li:hover a {color:#D0021B;}
 
 @media (max-width: 830px) {
     
-    .body{height: 2700px; width:100vw;}
+    .body{height: 2700px; width:100%;overflow-x: hidden;}
 
     .mainContainer {
-        height: 2660px; width:93vw;
-        
+        height: 2660px; width:93%; overflow-y: hidden;
     }
     
 .body h5 {
