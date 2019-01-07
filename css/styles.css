@@ -402,6 +402,7 @@ li:hover a {color:#D0021B;}
 .subNav {
     top:20px;
     right:30px;
+    position: fixed;
     }
     
 .about{
@@ -463,7 +464,7 @@ li:hover a {color:#D0021B;}
         
     }
     
-.mainNav{visibility: hidden; width: 93vw;}
+.mainNav{visibility: hidden; width: 0px; position:absolute;}
     
     
    #scrollingWrapper{
@@ -496,34 +497,33 @@ li:hover a {color:#D0021B;}
     margin:auto;
     }
 
-.rect {visibility: hidden;}
-.rect:hover {visibility: hidden; stroke-width:0px; opacity: 0%; display: none;}
-.imageLabel h4 {visibility: hidden;}
+.rect {visibility: hidden;width: 0px;}
+.rect:hover {visibility: hidden; stroke-width:0px; opacity: 0%; display: none;width: 0px;}
+.imageLabel h4 {visibility: hidden;width: 0px;}
     
 
 
-.mobileImageLabel{ visibility: visible; width:300px; height: 40px; display: block;
+.mobileImageLabel{ visibility: visible; width:200px; height: 40px; display: block;
 overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
 
     
 
 .socMedia {
-    position: relative;
-    top: 40px;
-    left: 40px;
+    position: fixed;
+    width:20px;
     display: inline-block;
-    width:70px;
-    height: 30px;
-    margin:5px;}
+    bottom:0px;
+    right:30px;
+    }
 
 .socMedia2 {
-    position: relative;
-    top: 40px;
-    left: 20px;
+    position: fixed;
     display: inline-block;
-    width:70px;
-    height: 30px;
-    margin:5px;}
+    width:20px;
+    left:30px;
+    top:20px;
+    
+    }
     
 }
 
