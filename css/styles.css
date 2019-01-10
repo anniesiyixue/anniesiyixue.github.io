@@ -1,21 +1,8 @@
 /* IMPORT TYPEFACES HERE */
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i|Aleo:300, 300i,400,400i');
 
-/* COLOR HEX CODES 
-
-pink: #f399bf;
-blue: #1e99cf;
-dk red: #9b1f22;
-red: #ea213d;
-
-*/
 
 /* STYLES GO HERE */
-
-/* Remember that your HTML elements (e.g. p, h1, h2, h3, a, header, footer, section) may have 
-margins/padding built into them. So when you're styling things, be sure to zero out those styles
-to confirm your positioning They will also hold onto existing defaults such as a heavier text 
-weight, underlines for links, tabs for unordered lists, etc. */
 
 
 .body {
@@ -139,10 +126,6 @@ a:visited { color:#2F323A;}
 a:active { color:#D0021B;text-decoration: underline;}
 a:hover {color:#D0021B;}
 
-.content{
-    position: relative;
-    
-}
 
 .mainNav {
     width:600px;
@@ -238,8 +221,8 @@ transform: rotate(-90deg); transform-origin: left top 0;}
 }
 
 rect {
-  stroke-dasharray: 1800;
-  stroke-dashoffset: 1800;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
   stroke-linecap: butt;
   -webkit-transition: all 1.5s ease-out;
   -moz-transition: all 1.5s ease-out;
@@ -304,6 +287,47 @@ li{transition: color .5s;}
 
 li:hover a {color:#D0021B;}
 
+
+/* ABOUT PAGE STUFF */
+
+.aboutContent{
+    position: relative;
+    width:60vw;
+    height:auto;
+    margin:auto;
+    top:18vh; bottom:0; left:0; right:0;
+}
+
+.leftabout img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    float:left;
+    margin:30px;
+}
+
+.rightabout {
+    width: 35vw;
+    display:inline-block;
+    margin-left:30px;
+    padding-top:30px; padding-bottom: 40px;
+    line-height: 1.3em;
+    font-size:1.2em;
+}
+
+.aboutQuote {
+    position:relative;
+    text-align: center;   
+    padding:20px;
+    font-family: 'Aleo';
+    line-height: 1.5em;
+    display:block;
+}
+
+.line2 { 
+    width:100px; height:4px; background: #2F323A; transition: background-color .3s; margin:auto;
+
 /* ARGO */
 
 
@@ -313,70 +337,6 @@ li:hover a {color:#D0021B;}
 
 
 /* @media (max-width: 1300px) {
-
-
-	h1 {
-		font-size: 3em;
-	}
-
-	h3 {
-		font-size: 1.5em;
-	}
-
-	h5 {
-		text-align:left;
-		font-size: 1.2em;
-	}
-
-	i {
-		padding: .25em;
-	}
-
-	.socialmedia {
-		float:none;
-		display:block;
-	}
-    
-    .body2 {
-        height: 2000px;
-    }
-    
-    .one {
-    position: relative;
-	width: 90%;
-	display: inline-block;
-	margin-top: 1em;
-}
-
-.onetext {
-    position: relative;
-	width: 80%;
-	display: inline-block;
-	margin-top: 1em;
-	padding: 0 3% 0 3%;
-	vertical-align: top;
-}
-    
- #digital {
-    margin: 20px;
-    margin-left: 23%;}
-#digital .image {width: 60px;}
-
-#digital .text {position:absolute; top:55px; left:-1px; opacity:0; margin: auto; font-size: 16px;}
-
-
-#traditional {
- margin: 20px}
-#traditional .image {width: 60px;}
-
-#traditional .text {position:absolute; top:55px; left:-22px; opacity:0; margin: auto; font-size: 16px;}
-
-
-#deco {
-    margin: 20px;}
-#deco .image {width: 60px;}
-#deco .text {position:absolute; top:35px; left:-3px; opacity:0; margin: auto; font-size: 16px;}
-
     
     */
     
