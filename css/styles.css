@@ -335,21 +335,18 @@ li:hover a {color:#D0021B;}
     
 
 @media (max-width: 840px) {
-    
-    .body{height: 2700px; width:100%;overflow-x: hidden;}
 
-    .mainContainer {
-        height: 2660px; width:93%; overflow-y: hidden;}
-    
-.body h5 {
-       
-       position:absolute;
-       bottom:10px;
-       z-index: 1;
-       height:10px;
-       left:25px;
+.mainContainer {
+    -webkit-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    -moz-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    height: 2640px; width:100%; overflow-y: hidden;}
 
-}
+h5 {
+    bottom:0px;
+    left: 30px;
+    position: fixed;
+    }
     
 .subNav {
     top:30px;
@@ -361,8 +358,8 @@ li:hover a {color:#D0021B;}
     display:block;
     margin:5px;
     text-align: right;
-
 }
+    
 .resume{
     display:block;
     margin:5px;
@@ -390,8 +387,7 @@ li:hover a {color:#D0021B;}
         text-align: center;
         width: 250px;
         top:50px;
-        margin:auto;  
-        
+        margin:auto;     
     }
     
 .line1{
@@ -412,12 +408,10 @@ li:hover a {color:#D0021B;}
         width: 250px;
         top:120px;
         margin:auto; 
-        font-size: .4em;
-        
+        font-size: .4em;   
     }
     
-.mainNav{visibility: hidden; width: 0px; position:absolute;}
-    
+.mainNav{visibility: hidden; width: 0px; position:absolute;} 
     
    #scrollingWrapper{
     position:relative;
@@ -427,6 +421,7 @@ li:hover a {color:#D0021B;}
     margin-top:320px;
        overflow-x: hidden;
 }
+    
 #scrollInteraction{width:0px; height:0px;}
 #scrollStrategy{width:0px; height:0px;}
     #scrollVisual{width:0px; height:0px;}
@@ -438,7 +433,6 @@ li:hover a {color:#D0021B;}
     height: 70vw;
     margin:0px;
 }
-
 
 .image {width:70vw;
     position: absolute; 
@@ -452,19 +446,15 @@ li:hover a {color:#D0021B;}
 .rect {visibility: hidden;width: 0px;}
 .rect:hover {visibility: hidden; stroke-width:0px; opacity: 0%; display: none;width: 0px;}
 .imageLabel h4 {visibility: hidden;width: 0px;}
-    
-
 
 .mobileImageLabel{ visibility: visible; width:200px; height: 40px; display: block;
 overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
-
-    
 
 .socMedia {
     position: fixed;
     width:20px;
     display: inline-block;
-    bottom:0px;
+    bottom:20px;
     right:30px;
     }
 
@@ -474,22 +464,21 @@ overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
     width:20px;
     left:30px;
     top:20px;
-    
     }
     
     /*ABOUT MOBILE*/
     
-.aboutBody {
-    width:100vw;
-    height: 150vh;
-
-}
-
 .aboutMainContainer {
-    width: 93vw;
-    height: 145vh;
-    top:0px;
-}    
+    -webkit-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    -moz-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    box-shadow:inset 0px 0px 0px 20px #ECEBF3;
+    height: 2640px; width:100%; overflow-y: hidden;}
+
+h5 {
+    bottom:0px;
+    left: 30px;
+    position: fixed;
+    }   
     
 .aboutContent{
     width:80vw;
