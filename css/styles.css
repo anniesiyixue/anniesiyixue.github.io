@@ -4,34 +4,39 @@
 
 /* STYLES GO HERE */
 
+.mainContainer {
+    font-family: 'Nunito', 'sans-serif';
+   -webkit-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    -moz-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100%;
+    } 
 
-.body {
-	font-family: 'Nunito', 'sans-serif';
-	font-size: 16px;
-    background: #ECEBF3;
-    width:100vw;
-    height: 100vh;
-    position: relative;
-}
 
 h5 {
+    font-family: 'Nunito', 'sans-serif';
+	font-size: 16px;
     padding: 0px;
     font-size: .9em;
     color: #2F323A;
     width:250px;
     text-align: center;
-    bottom:7px;
+    bottom:-10px;
     left: 70px;
     position: absolute;
     font-family: 'Aleo';
     font-weight: 500;
     letter-spacing: .05em;  
+    z-index: 3;
 }
 
 .subNav {
     text-align: center;
     color: #2F323A;
-    top:50px;
+    top:70px;
     right:70px;
     font-size: .9em;
     font-family: 'Aleo';
@@ -53,23 +58,12 @@ h5 {
     padding-right: 10px;
 }
 
-.mainContainer {
-    position: absolute;
-    background: white;
-    width: 93vw;
-    height: 87.5vh;
-    top:-10px;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
-}
 
 .header{position:relative;
     width: 50vw;
     height: 11vh;
     margin:auto;
-    top:75px; }
+    top:120px; }
 
 .logo {
     font-family: 'Nunito', 'sans-serif';
@@ -180,7 +174,7 @@ transform: rotate(-90deg); transform-origin: left top 0;}
     white-space: nowrap;
     width:56vw;
     margin:auto;
-    margin-top:130px;
+    margin-top:180px;
     height:28vw;
     scroll-behavior:smooth;
 }
@@ -265,16 +259,16 @@ font-family: 'Aleo';
 
 .socMedia {
     position: fixed;
-    bottom: 100px;
-    right:120px;
+    bottom: 70px;
+    right:80px;
     list-style-type: none;
     line-height: 2em;
     font-size: 1.5em;}
 
 .socMedia2 {
     position: fixed;
-    top: 80px;
-    left:120px;
+    top: 60px;
+    left:80px;
     list-style-type: none;
     line-height: 2em;
     font-size: 1.5em;
@@ -289,6 +283,18 @@ li:hover a {color:#D0021B;}
 
 
 /* ABOUT PAGE STUFF */
+
+
+.aboutMainContainer {
+    font-family: 'Nunito', 'sans-serif';
+   -webkit-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    -moz-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100%;
+    } 
 
 .aboutContent{
     position: relative;
@@ -326,33 +332,24 @@ li:hover a {color:#D0021B;}
 }
 
 .line2 { 
-    width:100px; height:4px; background: #2F323A; transition: background-color .3s; margin:auto;
-
-/* ARGO */
-
-
+    width:100px; height:4px; background: #2F323A; transition: background-color .3s; margin:auto;}
 
 
 /* MEDIA QUERIES GO HERE */
 
-
-/* @media (max-width: 1300px) {
-    
-    */
     
 
-@media (max-width: 830px) {
+@media (max-width: 840px) {
     
     .body{height: 2700px; width:100%;overflow-x: hidden;}
 
     .mainContainer {
-        height: 2660px; width:93%; overflow-y: hidden;
-    }
+        height: 2660px; width:93%; overflow-y: hidden;}
     
 .body h5 {
        
        position:absolute;
-       bottom:20px;
+       bottom:10px;
        z-index: 1;
        height:10px;
        left:25px;
@@ -360,7 +357,7 @@ li:hover a {color:#D0021B;}
 }
     
 .subNav {
-    top:20px;
+    top:30px;
     right:30px;
     position: fixed;
     }
@@ -484,6 +481,55 @@ overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
     top:20px;
     
     }
+    
+    /*ABOUT MOBILE*/
+    
+.aboutBody {
+    width:100vw;
+    height: 150vh;
+
+}
+
+.aboutMainContainer {
+    width: 93vw;
+    height: 145vh;
+    top:0px;
+}    
+    
+.aboutContent{
+    width:80vw;
+    top:10vh; bottom:0; left:0; right:0;
+}
+
+.leftabout img {
+    position:absolute;
+    height: 200px;
+    width: 200px;
+    float: none;
+    left:0; right:0;top:50px;
+    margin:auto;
+}
+
+.rightabout {
+    position:relative;
+    width: 60vw;
+    display:block;
+    text-align: center;
+    font-size:1em;
+    left:0; right:0;top:240px; bottom:0;
+    margin:auto;
+}
+
+.aboutQuote {
+    position:relative;
+    font-size: .8em;
+    left:0; right:0;top:240px; bottom:0;}
+
+.line2 { position:relative;
+    font-size: .8em;
+    left:0; right:0;top:230px; bottom:0;}
+}
+
     
 }
 
