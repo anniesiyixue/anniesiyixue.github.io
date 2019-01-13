@@ -15,9 +15,7 @@
     height: 100%;
     } 
 
-
 h5 {
-    font-family: 'Nunito', 'sans-serif';
 	font-size: 16px;
     padding: 0px;
     font-size: .9em;
@@ -57,7 +55,6 @@ h5 {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .header{position:relative;
     width: 50vw;
@@ -165,9 +162,7 @@ transform: rotate(-90deg); transform-origin: left top 0;}
     transition: color .5s;
 transform: rotate(-90deg); transform-origin: left top 0;}
 
-::-webkit-scrollbar { 
-    display: none; 
-}
+::-webkit-scrollbar { display: none; }
 
 #scrollingWrapper{
     overflow-y: scroll;
