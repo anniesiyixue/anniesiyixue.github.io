@@ -455,14 +455,14 @@ overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
     width:20px;
     display: inline-block;
     bottom:20px;
-    right:30px;
+    right:40px;
     }
 
 .socMedia2 {
     position: fixed;
     display: inline-block;
     width:20px;
-    left:30px;
+    left:40px;
     top:20px;
     }
     
@@ -472,7 +472,7 @@ overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
     -webkit-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
     -moz-box-shadow:inset 0px 0px 0px 20px #ECEBF3;
     box-shadow:inset 0px 0px 0px 20px #ECEBF3;
-    height: 2640px; width:100%; overflow-y: hidden;}
+    height: 960px; width:100%; overflow-y: hidden;}
 
 h5 {
     bottom:0px;
@@ -496,7 +496,7 @@ h5 {
 
 .rightabout {
     position:relative;
-    width: 60vw;
+    width: 58vw;
     display:block;
     text-align: center;
     font-size:1em;
