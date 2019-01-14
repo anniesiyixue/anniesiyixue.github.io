@@ -40,7 +40,7 @@ h5 {
     font-family: 'Aleo';
     font-weight: 700;
     letter-spacing: .05em; 
-    position:absolute;
+    position:fixed;
     z-index: 1;
     }
 
@@ -292,29 +292,33 @@ li:hover a {color:#D0021B;}
     } 
 
 .aboutContent{
+    display: flex;
+    align-items: center;
     position: relative;
-    width:60vw;
+    width:70vw;
     height:auto;
     margin:auto;
-    top:18vh; bottom:0; left:0; right:0;
+    top:20vh; bottom:0; left:0; right:0;
 }
 
 .leftabout img {
     object-fit: cover;
     border-radius: 50%;
-    height: 280px;
-    width: 280px;
+    height: 15vw;
+    width: 15vw;
     float:left;
-    margin:30px;
+    vertical-align: middle;
+    margin:50px;
+    margin-left:80px;
 }
 
 .rightabout {
     width: 35vw;
     display:inline-block;
     margin-left:30px;
-    padding-top:30px; padding-bottom: 40px;
+    padding-top:40px; padding-bottom: 40px;
     line-height: 1.3em;
-    font-size:1.2em;
+    font-size:1.1em;
 }
 
 .aboutQuote {
@@ -324,11 +328,61 @@ li:hover a {color:#D0021B;}
     font-family: 'Aleo';
     line-height: 1.5em;
     display:block;
+    width:70vw;
+    margin: auto;
+    margin-top: 150px;
 }
 
 .line2 { 
     width:100px; height:4px; background: #2F323A; transition: background-color .3s; margin:auto;}
 
+/* alright try not to make 50 classes for the same damn thing, all case stuy styles here: */
+.mainContainerWork{
+    font-family: 'Nunito', 'sans-serif';
+   -webkit-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    -moz-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    box-shadow:inset 0px 0px 0px 40px #ECEBF3;
+    position: relative;
+    background: white;
+    width: 100%;
+    height: 100vh;} 
+.workLeft {position:fixed; top:150px; left:12vw; width:335px; line-height:1em;}
+.headerImage{position: fixed; margin-top:135px; margin-left: 85px; }
+.headerImage img {width: 250px; display:block; float:right;}
+h1{font-weight: 300; text-align: right;line-height: 1.2em;}
+h2{font-family: 'Aleo';text-align: right;line-height: 1em;font-size:1em;}
+.workLeft h3{font-family: 'Aleo';font-weight: 300; line-height: 1.3em; font-size:.9em;text-align: right;}
+.navNext {margin-top:300px; margin-left: 85px; text-align:right;}
+.navNext i {font-size: 1.3em;}
+
+/* attempt at scrollbar 
+
+.progress-container {
+    position: fixed;
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  margin-left:0px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: red;
+  width: 0%;
+}
+*/
+
+.line2 { 
+    width:1.5px; height:560px; background: #2F323A; display:inline-block; 
+    position:fixed; top:165px; left:34vw;}
+
+.workRight{ position:absolute; width:48vw; margin: auto; margin-left:36vw; top:120px; height:75vh; overflow-y: scroll;}
+
+h3 {font-family: 'Aleo';font-weight: 300; line-height: 1.3em; font-size:.9em;}
+h6 {font-family: 'Aleo';font-weight: 600; line-height: 1.3em; font-size:1em; }
+p{line-height: 1.3em; font-weight: 300; }
+
+.workRight img { width:40vw; margin:.5vw; margin-left:2vw;}
 
 /* MEDIA QUERIES GO HERE */
 
@@ -343,9 +397,9 @@ li:hover a {color:#D0021B;}
     height: 2640px; width:100%; overflow-y: hidden;}
 
 h5 {
-    bottom:0px;
-    left: 30px;
-    position: fixed;
+    bottom:10px;
+    left:30px;
+    position: absolute;
     }
     
 .subNav {
@@ -474,11 +528,6 @@ overflow: visible; margin:5px; font-size:.8em; font-family: 'Aleo' }
     box-shadow:inset 0px 0px 0px 20px #ECEBF3;
     height: 960px; width:100%; overflow-y: hidden;}
 
-h5 {
-    bottom:0px;
-    left: 30px;
-    position: fixed;
-    }   
     
 .aboutContent{
     width:80vw;
@@ -515,7 +564,6 @@ h5 {
 }
 
     
-}
 
 
 
