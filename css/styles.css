@@ -353,9 +353,7 @@ h1{font-weight: 300; text-align: right;line-height: 1.2em;}
 h2{font-family: 'Aleo';text-align: right;line-height: 1em;font-size:1em;}
 .workLeft h3{font-family: 'Aleo';font-weight: 300; line-height: 1.3em; font-size:.9em;text-align: right;}
 .navNext {margin-top:300px; margin-left: 85px; text-align:right;}
-.navNext i {font-size: 1.3em;}
-
-/* attempt at scrollbar 
+.navNext i {font-size: 1.3em;} 
 
 .progress-container {
     position: fixed;
@@ -370,7 +368,6 @@ h2{font-family: 'Aleo';text-align: right;line-height: 1em;font-size:1em;}
   background: red;
   width: 0%;
 }
-*/
 
 .line2 { 
     width:1.5px; height:560px; background: #2F323A; display:inline-block; 
