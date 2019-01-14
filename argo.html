@@ -30,11 +30,11 @@
         <div class = "line2"></div>
     </div>
 
-<!-- attempt at scrollbar 
+
     <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div></div> -->
+        <div class="progress-bar" id="myBar"></div></div>
     
-    <div class="workRight">
+    <div class="workRight" id="workRightBox">
 
     <h3><b>With:</b> Ishan Shah, Sneha Karkala, Jessica Cui, and Jake Warren <br>
             <b>Assignment focus:</b> improving the high-end gardening experience, with respect to air in the garden. <br>
@@ -111,20 +111,19 @@ I wish we had more time to implement rather than just ideating on IoT features! 
                         
 </div>
 
-<!-- attempt at scroll bar
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 <script>
 // When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+var scrollBox = document.getElementById("workRightBox")
+
+scrollBox.onscroll = function() {myFunction()};
 
 function myFunction() {
-  var winScroll = $('.workRight').height()
-  var height = $(document).height()
-  var scrolled = (winScroll - height);
+
+  var winScroll = scrollBox.scrollTop;
+  var height = scrollBox.scrollHeight - scrollBox.clientHeight;
+  var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-</script> -->
+</script>
 
 </html>
