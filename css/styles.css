@@ -361,26 +361,31 @@ h2{font-family: 'Aleo';text-align: right;line-height: 1em;font-size:1em;}
 .navPrev i {font-size: 1em;}
 
 h7{ font-family: 'Aleo';font-weight: 300; font-size:.6em;text-align: right;}
-
-/* attempt at scrollbar 
-=======
 .navNext i {font-size: 1.3em;} 
->>>>>>> 78a6e81fabc2b1754a62a6b3ca5619ee0ccac8aa
+
+/* attempt at scrollbar */
 
 .progress-container {
-    position: fixed;
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-  margin-left:0px;
+position: fixed;
+  width: 35%;
+  height: 4px;
+  background:#ECEBF3 ;
+    margin-left:80px;
+    margin-top:-290px;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .progress-bar {
-  height: 8px;
-  background: red;
+  height: 4px;
+  background: #D0021B;
   width: 0%;
 }
-*/
+
 
 .line2 { 
     width:1.5px; height:580px; background: #2F323A; display:inline-block; 
