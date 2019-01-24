@@ -333,10 +333,10 @@ li:hover a {color:#D0021B;}
     margin-top: 150px;
 }
 
-.line2 { 
+.line3 { 
     width:100px; height:4px; background: #2F323A; transition: background-color .3s; margin:auto;}
 
-/* alright try not to make 50 classes for the same damn thing, all case stuy styles here: */
+/* alright try not to make 50 classes for the same damn thing, all case study styles here: */
 .mainContainerWork{
     font-family: 'Nunito', 'sans-serif';
    -webkit-box-shadow:inset 0px 0px 0px 40px #ECEBF3;
@@ -354,7 +354,7 @@ h2{font-family: 'Aleo';text-align: right;line-height: 1em;font-size:1em;}
 .workLeft h3{font-family: 'Aleo';font-weight: 300; line-height: 1.3em; font-size:.9em;text-align: right;}
 
 .navNext {margin-top:300px; margin-left: 85px; text-align:right;}
-<<<<<<< HEAD
+
 .navNext i {font-size: 1em;}
 
 .navPrev {margin-top:20px; margin-left: 85px; text-align:right;}
@@ -398,6 +398,49 @@ h6 {font-family: 'Aleo';font-weight: 600; line-height: 1.3em; font-size:1em; }
 p{line-height: 1.3em; font-weight: 300; }
 
 .workRight img { width:43vw; margin:.5vw; margin-left:2vw;}
+
+/* image gallery stuff */
+
+.galleryRight{ position:absolute; width:48vw; margin: auto; margin-left:36vw; top:120px; height:75vh; overflow-y: scroll;}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 /* MEDIA QUERIES GO HERE */
 
