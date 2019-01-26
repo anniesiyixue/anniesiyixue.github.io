@@ -346,6 +346,7 @@ li:hover a {color:#D0021B;}
     background: white;
     width: 100%;
     height: 100vh;} 
+
 .workLeft {position:fixed; top:140px; left:12vw; width:335px; line-height:1em;}
 .headerImage{position: fixed; margin-top:130px; margin-left: 85px; }
 .headerImage img {width: 250px; display:block; float:right;}
@@ -371,7 +372,7 @@ position: fixed;
   height: 4px;
   background:#ECEBF3 ;
     margin-left:80px;
-    margin-top:-290px;
+    margin-top:0px;
 
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -391,7 +392,7 @@ position: fixed;
     width:1.5px; height:580px; background: #2F323A; display:inline-block; 
     position:fixed; top:145px; left:34vw;}
 
-.workRight{ position:absolute; width:48vw; margin: auto; margin-left:36vw; top:120px; height:75vh; overflow-y: scroll;}
+.workRight{ position:absolute; width:48vw; margin: auto; margin-left:36vw; top:120px; height:75vh; overflow-y: scroll;font-family: 'Aleo';line-height: 1.3em;}
 
 h3 {font-family: 'Aleo';font-weight: 300; line-height: 1.2em; font-size:.9em;}
 h6 {font-family: 'Aleo';font-weight: 600; line-height: 1.3em; font-size:1em; }
